@@ -1,0 +1,47 @@
+# ==========================================================
+# Run Instructions for medical_3Dmodel
+# ==========================================================
+
+To run the pipeline and the user interface, you need to open TWO separate terminals.
+
+------------------------------------------------------------
+TERMINAL 1: Start the Backend (FastAPI)
+------------------------------------------------------------
+The backend API handles all the heavy lifting: file ingestion, NLP extraction with GPT-4o, MedSAM2 segmentation, and Mesh generation.
+
+1. Open your terminal or command prompt.
+2. Activate your Python environment (if you use one).
+3. Start the FastAPI server by running:
+
+   uvicorn main:app --reload --port 8000
+
+*The API will be available at http://127.0.0.1:8000*
+
+
+------------------------------------------------------------
+TERMINAL 2: Start the Frontend (Gradio UI)
+------------------------------------------------------------
+The frontend provides the interactive dashboard for the clinical workflow.
+
+1. Open a new terminal or command prompt.
+2. Activate your Python environment.
+3. Start the Gradio application by running:
+
+   python ui/gradio_app.py
+
+*The UI will usually open automatically in your browser at http://127.0.0.1:7860*
+
+
+------------------------------------------------------------
+GPU Setup Note (For your T4 Laptop):
+------------------------------------------------------------
+When you move this to your GPU laptop, make sure to install MedSAM2 correctly so it uses the GPU:
+1. cd MedSAM2
+2. pip install -e .
+3. Ensure you have installed PyTorch with CUDA support.
+
+------------------------------------------------------------
+Alternative Scripts (CLI Usage)
+------------------------------------------------------------
+If you prefer not to use the UI and just want to run a pipeline script from the terminal:
+   python scripts/run_lung_report_nlp_totalseg.py

@@ -1,0 +1,19 @@
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+myenv001/
+data/
+*.nii.gz
+.pytest_cache/
+*.log
+# Large / third-party (clone separately)
+manifest-1600709154662/
+*.tcia
+MedSAM2/
+TotalSegmentator/

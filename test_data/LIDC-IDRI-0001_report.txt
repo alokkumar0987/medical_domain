@@ -1,0 +1,47 @@
+============================================================
+LIDC-IDRI-0001 Digest Report
+Source: D:\project\medical_3Dmodel\test_data\LIDC-IDRI-0001_digest.xlsx
+Rows: 1, Columns: 36
+============================================================
+
+--- Series / Row 1 ---
+  Patient ID: LIDC-IDRI-0001
+  Patient Name: 
+  Patient Birth Date: 
+  Patient Sex: 
+  Ethnic Group: 
+  Phantom: NO
+  Species Code: 337915000
+  Species Description: Homo sapiens
+  Study Instance UID: 1.3.6.1.4.1.14519.5.2.1.6279.6001.298806137288633453246975630178
+  Study Date: 2000-01-01 00:00:00.0
+  Study Description: 
+  Admitting Diagnosis Description: 
+  Study ID: 
+  Patient Age: 
+  Longitudinal Temporal Event Type: 
+  Longitudinal Temporal Offset From Event: 
+  Series Instance UID: 1.3.6.1.4.1.14519.5.2.1.6279.6001.179049373636438705059720603192
+  Project: LIDC-IDRI
+  Modality: CT
+  Protocol Name: 
+  Series Date: 2000-01-01 00:00:00.0
+  Series Description: 
+  Body Part Examined: CHEST
+  Series Number: 3000566
+  Annotations Flag: 1
+  Manufacturer: GE MEDICAL SYSTEMS
+  Manufacturer Model Name: LightSpeed Plus
+  Software Versions: LightSpeedApps2.4.2_H2.4M5
+  Image Count: 133
+  Max Submission Timestamp: 2020-02-21 15:12:49.0
+  License Name: Creative Commons Attribution 3.0 Unported License
+  License URI: http://creativecommons.org/licenses/by/3.0/
+  Collection URI: https://doi.org/10.7937/K9/TCIA.2015.LO9QL9SX
+  File Size: 70018838
+  Date Released: 2020-02-21 15:12:49.0
+  Third Party Analysis: 
+
+============================================================
+End of report
+============================================================
